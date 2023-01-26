@@ -39,7 +39,7 @@ function createSaveList(repName, userName, stars){
     let checkedItem = creator(checked, 'checked__item', info);
     let closeBtn = document.createElement('button');
     closeBtn.classList.add('close');
-    closeBtn.textContent = 'Close';
+    closeBtn.textContent = 'X';
     checkedItem.append(closeBtn);
     closeBtn.addEventListener('click', () =>{
         checkedItem.remove()

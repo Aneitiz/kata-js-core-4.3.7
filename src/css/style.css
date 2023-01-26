@@ -123,7 +123,9 @@ body{
 .close{
     display: flex;
     align-items: center;
+    justify-content: center;
     cursor: pointer;
+    min-width: 30px;
     min-height: 65px;
     border-radius: 20px;
     background: #e5e5e5;
