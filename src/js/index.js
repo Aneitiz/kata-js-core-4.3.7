@@ -52,7 +52,7 @@ async function github(value){
         .then(response => response.json())
             .then(data => (data.items).slice(0,5))
             .catch((e) => {
-                creator(dropList, 'drop__item', 'Sorry, request is unsuccsessful')
+                creator(dropList, 'drop__item', 'Sorry, something went wrong, please try again later');
                 console.log(e)
             });
     }
